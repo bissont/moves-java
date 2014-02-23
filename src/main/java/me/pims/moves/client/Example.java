@@ -10,7 +10,7 @@ public class Example {
 
     public static void main(String[] args) throws Exception {
 
-        final String token = "TY1H7BEgQM9GQHlr29KImT0omqpy9JNBSoTJs76EGiDYdz934Oo_34K4HQbvG_4l";
+        final String token = System.getenv("ACCESS_TOKEN");
 
         Moves moves = new MovesBuilder().setToken(token).build();
 
