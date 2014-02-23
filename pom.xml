@@ -8,6 +8,40 @@
     <artifactId>moves-java</artifactId>
     <version>0.1-SNAPSHOT</version>
 
+    <name>Moves Java client</name>
+    <url>http://github.com/pims/moves-java</url>
+    <description>
+        Experimental Java client for Moves API
+    </description>
+
+    <developers>
+        <developer>
+            <name>Tim Bart</name>
+            <email>tim@fewagainstmany.com</email>
+            <timezone>-8</timezone>
+        </developer>
+    </developers>
+
+    <licenses>
+        <license>
+            <name>MIT</name>
+            <url>http://opensource.org/licenses/MIT</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <connection>scm:git:git://github.com/pims/moves-java.git</connection>
+        <developerConnection>scm:git:git@github.com:pims/moves-java.git</developerConnection>
+        <url>http://github.com/pims/moves-java/</url>
+        <tag>HEAD</tag>
+    </scm>
+
+    <issueManagement>
+        <system>github</system>
+        <url>http://github.com/pims/moves-java/issues#issue/</url>
+    </issueManagement>
+
     <dependencies>
         <dependency>
             <groupId>com.google.guava</groupId>
