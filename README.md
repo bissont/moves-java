@@ -35,7 +35,6 @@ public class Example {
         System.out.println(places);
         System.out.println(descriptions);
     }
-    }
 }
 ```
 
