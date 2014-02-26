@@ -12,7 +12,7 @@ public class Example {
 
         final String token = System.getenv("ACCESS_TOKEN");
 
-        Moves moves = new MovesBuilder().setToken(token).build();
+        final Moves moves = new MovesBuilder().setToken(token).build();
 
         final Profile profile = moves.profile();
 
