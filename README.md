@@ -44,6 +44,10 @@ It is mostly an excuse to play with [Jackson](https://github.com/FasterXML/jacks
 and [Retrofit](http://square.github.io/retrofit/).
 
 
+##TODO
+
+1. Handle dates properly – not as strings.
+
 ##LICENSE
 
 ```
